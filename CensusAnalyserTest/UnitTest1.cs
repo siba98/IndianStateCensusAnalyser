@@ -73,7 +73,6 @@ namespace CensusAnalyserTest
 
 
 
-        ///
         /// <summary>
         /// TC 1.3 --> Given the State Census CSV File when correct but type incorrect Returns a custom Exception (Passing correct File Path but file type should be incorrect)
         /// </summary>
