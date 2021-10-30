@@ -19,6 +19,7 @@ namespace Day22_IndianStateCensusAnalyzer.DTO
         public double populationDensity;
         public double housingDensity;
 
+        //constructor
         public CensusDTO(StateCodeDAO stateCodeDao)
         {
             this.serialNumber = stateCodeDao.serialNumber;
