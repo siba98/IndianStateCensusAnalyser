@@ -9,6 +9,8 @@ namespace Day22_IndianStateCensusAnalyzer.POCO
         public int tin;
         public string stateCode;
 
+
+        //Constructor
         public StateCodeDAO(string v1, string v2, string v3, string v4)
         {
             this.serialNumber = Convert.ToInt32(v1);
